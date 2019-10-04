@@ -13,6 +13,8 @@
 		12E822AF2346D9A800D1A928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E822AD2346D9A800D1A928 /* Main.storyboard */; };
 		12E822B12346D9A900D1A928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E822B02346D9A900D1A928 /* Assets.xcassets */; };
 		12E822B42346D9A900D1A928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E822B22346D9A900D1A928 /* LaunchScreen.storyboard */; };
+		12E822BC2346E24F00D1A928 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E822BB2346E24F00D1A928 /* Star.swift */; };
+		12E822BE2346E37F00D1A928 /* StarModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E822BD2346E37F00D1A928 /* StarModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		12E822B02346D9A900D1A928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12E822B32346D9A900D1A928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12E822B52346D9A900D1A928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12E822BB2346E24F00D1A928 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		12E822BD2346E37F00D1A928 /* StarModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				12E822A72346D9A800D1A928 /* AppDelegate.swift */,
 				12E822A92346D9A800D1A928 /* SceneDelegate.swift */,
 				12E822AB2346D9A800D1A928 /* StarsViewController.swift */,
+				12E822BB2346E24F00D1A928 /* Star.swift */,
+				12E822BD2346E37F00D1A928 /* StarModelController.swift */,
 				12E822AD2346D9A800D1A928 /* Main.storyboard */,
 				12E822B02346D9A900D1A928 /* Assets.xcassets */,
 				12E822B22346D9A900D1A928 /* LaunchScreen.storyboard */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E822BE2346E37F00D1A928 /* StarModelController.swift in Sources */,
 				12E822AC2346D9A800D1A928 /* StarsViewController.swift in Sources */,
 				12E822A82346D9A800D1A928 /* AppDelegate.swift in Sources */,
 				12E822AA2346D9A800D1A928 /* SceneDelegate.swift in Sources */,
+				12E822BC2346E24F00D1A928 /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
